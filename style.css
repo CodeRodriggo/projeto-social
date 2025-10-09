@@ -3,7 +3,8 @@
 *{
    margin: 0;
    padding: 0;
-   font-family: Arial, Helvetica, sans-serif; 
+   font-family: Arial, Helvetica, sans-serif;
+   box-sizing: border-box;
 }
 
 html, body{
@@ -43,15 +44,29 @@ section#telefone{
     height: 265px;
 } 
 
-
-.contanier{
-    position: relative;
+#redes-sociais{
+    padding-right: 10px;
+    padding-top: 20px;
+    float: right;
+    
 }
 
-.logo{
-    border-radius: 50px 50px 50px 50px;
-    height: 40px;
-    position: absolute;
-    right: 30px;
-    top: 25px;
+#redes-sociais img{
+    height:35px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px black;
+    margin: 15px;
+    display: block;
+
+       
+}
+
+#redes-sociais img:hover{
+    box-shadow: 1px 1px 5px bisque;
+    transition-duration: 0.3s;
+    transform: translate(-3px, -3px);
+}
+
+section#redes-sociais img:active {
+    transform: scale(90%);
 }
