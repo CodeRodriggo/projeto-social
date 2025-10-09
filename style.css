@@ -35,10 +35,23 @@ section#telefone{
     background-position: center;
 }
 
-#tela{
+ #tela{
     position: relative;
     top:44px;
     left:100px;
     width: 150px;
     height: 265px;
+} 
+
+
+.contanier{
+    position: relative;
+}
+
+.logo{
+    border-radius: 50px 50px 50px 50px;
+    height: 40px;
+    position: absolute;
+    right: 30px;
+    top: 25px;
 }
